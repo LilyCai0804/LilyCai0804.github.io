@@ -8,6 +8,9 @@
   padding-left: 10px;
   border-style: dashed;
   border-width: thin;
+  font-family:monospace;
+  font-size: 28px;
+
 }
 
 
@@ -21,6 +24,8 @@
   padding-top: 300px;
   border-style: dashed;
   border-width: thin;
+  font-family:monospace;
+  font-size: 28px;
 }
 
 #step1-1{
@@ -33,6 +38,8 @@
   padding-top: 300px;
   border-style: dashed;
   border-width: thin;
+  font-family:monospace;
+  font-size: 28px;
 }
 
 
@@ -46,6 +53,9 @@
   padding-left: 10px;
   border-style: dashed;
   border-width: thin;
+  font-family:monospace;
+  font-size: 18px;
+
 }
 
 #beetroot{
@@ -58,6 +68,8 @@
   padding-left: 10px;
   border-style: dashed;
   border-width: thin;
+  font-family:monospace;
+  font-size: 18px;
 }
 
 #step2{
@@ -70,6 +82,8 @@
   padding-top: 300px;
   border-style: dashed;
   border-width: thin;
+  font-family:monospace;
+  font-size: 28px;
 }
 
 
@@ -83,6 +97,8 @@
   padding-left: 10px;
   border-style: dashed;
   border-width: thin;
+  font-family:monospace;
+  font-size: 18px;
 }
 
 
@@ -96,6 +112,8 @@
   padding-top: 300px;
   border-style: dashed;
   border-width: thin;
+  font-family:monospace;
+  font-size: 28px;
 }
 
 #step3{
@@ -108,6 +126,8 @@
   padding-top: 300px;
   border-style: dashed;
   border-width: thin;
+  font-family:monospace;
+  font-size: 28px;
 }
 
 #potatoes{
@@ -120,6 +140,8 @@
   padding-left: 10px;
   border-style: dashed;
   border-width: thin;
+  font-family:monospace;
+  font-size: 18px;
 }
 
 #cabbage{
@@ -132,6 +154,8 @@
   padding-left: 10px;
   border-style: dashed;
   border-width: thin;
+  font-family:monospace;
+  font-size: 18px;
 }
 
 
@@ -146,6 +170,8 @@
   padding-top: 300px;
   border-style: dashed;
   border-width: thin;
+  font-family:monospace;
+  font-size: 28px;
 }
 
 
@@ -160,6 +186,8 @@
   padding-left: 10px;
   border-style: dashed;
   border-width: thin;
+  font-family:monospace;
+  font-size: 18px;
 }
 
 
@@ -173,6 +201,8 @@
   padding-top: 300px;
   border-style: dashed;
   border-width: thin;
+  font-family:monospace;
+  font-size: 28px;
 }
 
 
@@ -186,6 +216,8 @@
   padding-left: 10px;
   border-style: dashed;
   border-width: thin;
+  font-family:monospace;
+  font-size: 18px;
 }
 
 #step4-1{
@@ -194,8 +226,11 @@
   position: absolute;
   top:100px;
   left: 7350px;
+  right:100px;
   padding-left: 110px;
   padding-top: 300px;
   border-style: dashed;
   border-width: thin;
+  font-family:monospace;
+  font-size: 28px;
 }
