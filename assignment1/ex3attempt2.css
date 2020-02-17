@@ -34,3 +34,9 @@
   top:400px;
   left: 800px;
 }
+
+#ingredients{
+  position: absolute;
+  bottom:30px;
+  left: 30px;
+}

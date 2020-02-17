@@ -1,0 +1,255 @@
+#borscht{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:-120px;
+  left: 50px;
+  font-size: 28px;
+  font-family: sans-serif;
+  font-size: 100px;
+}
+
+#serves{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:510px;
+  left: 50px;
+  font-size: 18px;
+}
+
+#step1{
+  width:900px;
+  height:480px;
+  position: absolute;
+  top:370px;
+  left: 450px;
+  font-size: 100px;
+  font-family: sans-serif;
+}
+
+#step1-1{
+  width:900px;
+  height:480px;
+  position: absolute;
+  top:370px;
+  left: 1600px;
+  font-size: 100px;
+  font-family: sans-serif;
+
+}
+
+
+#butter{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:580px;
+  left:2200px;
+  font-size: 18px;
+}
+
+#onion{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:820px;
+  left:1600px;
+  font-size: 18px;
+}
+
+#beetroot{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:700px;
+  left:1040px;
+  font-size: 18px;
+}
+
+#step2{
+  width:900px;
+  height:480px;
+  position: absolute;
+  top:370px;
+  left: 2750px;
+  font-size: 100px;
+  font-family: sans-serif;
+
+}
+
+
+#carrot{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:580px;
+  left:3160px;
+  font-size: 18px;
+}
+
+#leek{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:700px;
+  left:2760px;
+  font-size: 18px;
+}
+
+#celery{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:700px;
+  left:3010px;
+  font-size: 18px;
+}
+
+#allspice{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:820px;
+  left:3220px;
+  font-size: 18px;
+}
+
+#leaf{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:940px;
+  left:2960px;
+  font-size: 18px;
+}
+
+#stock{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:1500px;
+  left:2990px;
+  font-size: 18px;
+}
+
+#step2-1{
+  width:900px;
+  height:480px;
+  position: absolute;
+  top:1640px;
+  left: 2750px;
+  font-size: 100px;
+  font-family: sans-serif;
+
+}
+
+#step3{
+  width:900px;
+  height:480px;
+  position: absolute;
+  top:370px;
+  left: 3900px;
+  font-size: 100px;
+  font-family: sans-serif;
+}
+
+#potatoes{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:750px;
+  left:4560px;
+  font-size: 18px;
+}
+
+#cabbage{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:700px;
+  left:5060px;
+  font-size: 18px;
+}
+
+#garlic{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:590px;
+  left:5520px;
+  font-size: 18px;
+}
+
+#step3-1{
+  width:900px;
+  height:480px;
+  position: absolute;
+  top:370px;
+  left: 5050px;
+  font-size: 100px;
+  font-family: sans-serif;
+}
+
+
+
+#cider{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:580px;
+  left: 6610px;
+  font-size: 18px;
+}
+
+
+#pepper{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:700px;
+  left: 6730px;
+  font-size: 18px;
+}
+
+
+#sugar{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:700px;
+  left: 6200px;
+  font-size: 18px;
+}
+
+
+#step4{
+  width:900px;
+  height:480px;
+  position: absolute;
+  top:370px;
+  left: 6200px;
+  font-size: 100px;
+  font-family: sans-serif;
+}
+
+
+#cream{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:640px;
+  left: 8050px;
+  font-size: 18px;
+}
+
+#step4-1{
+  width:900px;
+  height:480px;
+  position: absolute;
+  top:370px;
+  left: 7350px;
+  right:100px;
+  font-size: 100px;
+  font-family: sans-serif;
+}

@@ -2,24 +2,24 @@
   width:280px;
   height:280px;
   position: absolute;
-  top:20px;
+  top:-25px;
   left: 0px;
   margin-left: 40px;
   padding-left: 10px;
-  border-style: dashed;
-  border-width: thin;
+  font-size: 60px;
+  font-family:sans-serif;
 }
 
 #serving{
   width:280px;
   height:280px;
   position: absolute;
-  top:20px;
+  top:-25px;
   left: 330px;
   margin-left: 40px;
   padding-left: 10px;
-  border-style: dashed;
-  border-width: thin;
+  font-size: 60px;
+  font-family:sans-serif;
 }
 
 #step1{
@@ -29,9 +29,9 @@
   top:20px;
   left: 660px;
   margin-left: 40px;
-  padding-left: 30px;
-  border-style: dashed;
-  border-width: thin;
+  padding-left: 10px;
+  font-size: 30px;
+  font-family:sans-serif;
 }
 
 #step1-1{
@@ -41,9 +41,9 @@
   top:320px;
   left: 0px;
   margin-left: 40px;
-  padding-left: 30px;
-  border-style: dashed;
-  border-width: thin;
+  padding-left: 10px;
+  font-size: 30px;
+  font-family:sans-serif;
 }
 
 
@@ -51,24 +51,24 @@
   width:280px;
   height:280px;
   position: absolute;
-  top:20px;
+  top:-10px;
   left:990px;
   margin-left: 40px;
   padding-left: 10px;
-  border-style: dashed;
-  border-width: thin;
+  font-size: 60px;
+  font-family:serif;
 }
 
 #beetroot{
   width:280px;
   height:280px;
   position: absolute;
-  top:20px;
+  top:-10px;
   left:1320px;
   margin-left: 40px;
   padding-left: 10px;
-  border-style: dashed;
-  border-width: thin;
+  font-size: 60px;
+  font-family:serif;
 }
 
 #step2{
@@ -78,33 +78,33 @@
   top:320px;
   left:990px;
   margin-left: 40px;
-  padding-left: 30px;
-  border-style: dashed;
-  border-width: thin;
+  padding-left: 10px;
+  font-size: 30px;
+  font-family:sans-serif;
 }
 
 #onion{
   width:280px;
   height:280px;
   position: absolute;
-  top:320px;
+  top:295px;
   left:330px;
   margin-left: 40px;
   padding-left: 10px;
-  border-style: dashed;
-  border-width: thin;
+  font-size: 60px;
+  font-family:serif;
 }
 
 #carrot{
   width:280px;
   height:280px;
   position: absolute;
-  top:320px;
+  top:295px;
   left:660px;
   margin-left: 40px;
   padding-left: 10px;
-  border-style: dashed;
-  border-width: thin;
+  font-size: 60px;
+  font-family:serif;
 }
 
 
@@ -115,93 +115,94 @@
   top:320px;
   left:1320px;
   margin-left: 40px;
-  padding-left: 30px;
-  border-style: dashed;
-  border-width: thin;
+  padding-left: 10px;
+  font-size: 30px;
+  font-family:sans-serif;
 }
 
 #step3{
   width:280px;
   height:280px;
   position: absolute;
-  top:620px;
+  top:750px;
   left:330px;
   margin-left: 40px;
-  padding-left: 30px;
-  border-style: dashed;
-  border-width: thin;
+  padding-left: 10px;
+  font-size: 30px;
+  font-family:sans-serif;
 }
 
 #potatoes{
   width:280px;
   height:280px;
   position: absolute;
-  top:620px;
+  top:710px;
   left:1320px;
   margin-left: 40px;
   padding-left: 10px;
-  border-style: dashed;
-  border-width: thin;
+  font-size: 60px;
+  font-family:serif;
 }
 
 #cabbage{
   width:280px;
   height:280px;
   position: absolute;
-  top:920px;
+  top:1330px;
   left:1320px;
   margin-left: 40px;
   padding-left: 10px;
-  border-style: dashed;
-  border-width: thin;
+  font-size: 60px;
+  font-family:serif;
 }
 
 #celery{
   width:280px;
   height:280px;
   position: absolute;
-  top:620px;
+  top:720px;
   left: 0px;
   margin-left: 40px;
   padding-left: 10px;
-  border-style: dashed;
-  border-width: thin;
+  font-size: 60px;
+  font-family:serif;
 }
 
 #step3-1{
   width:280px;
   height:280px;
   position: absolute;
-  top:920px;
+  top:945px;
   left:990px;
   margin-left: 40px;
-  padding-left: 30px;
-  border-style: dashed;
-  border-width: thin;
+  padding-left: 10px;
+  font-size: 30px;
+  font-family:sans-serif;
 }
 
 #leek{
   width:280px;
   height:280px;
   position: absolute;
-  top:620px;
+  top:720px;
   left:660px;
   margin-left: 40px;
   padding-left: 10px;
-  border-style: dashed;
-  border-width: thin;
+  font-size: 60px;
+  font-family:serif;
 }
 
 #peeled{
   width:280px;
   height:280px;
   position: absolute;
-  top:620px;
+  top:750px;
   left:990px;
   margin-left: 40px;
   padding-left: 10px;
-  border-style: dashed;
-  border-width: thin;
+  font-size: 30px;
+  font-family:serif;
+  font-weight: bold;
 }
 
 #allspice{
@@ -212,32 +213,32 @@
   left: 0px;
   margin-left: 40px;
   padding-left: 10px;
-  border-style: dashed;
-  border-width: thin;
+  font-size: 60px;
+  font-family:serif;
 }
 
 #garlic{
   width:280px;
   height:280px;
   position: absolute;
-  top:1220px;
+  top:1320px;
   left: 0px;
   margin-left: 40px;
   padding-left: 10px;
-  border-style: dashed;
-  border-width: thin;
+  font-size: 60px;
+  font-family:serif;
 }
 
 #cider{
   width:280px;
   height:280px;
   position: absolute;
-  top:1220px;
+  top:1320px;
   left: 330px;
   margin-left: 40px;
   padding-left: 10px;
-  border-style: dashed;
-  border-width: thin;
+  font-size: 60px;
+  font-family:serif;
 }
 
 
@@ -249,8 +250,8 @@
   left: 330px;
   margin-left: 40px;
   padding-left: 10px;
-  border-style: dashed;
-  border-width: thin;
+  font-size: 60px;
+  font-family:serif;
 }
 
 #stock{
@@ -261,66 +262,66 @@
   left:660px;
   margin-left: 40px;
   padding-left: 10px;
-  border-style: dashed;
-  border-width: thin;
+  font-size: 60px;
+  font-family:serif;
 }
 
 #sugar{
   width:280px;
   height:280px;
   position: absolute;
-  top:1220px;
+  top:1320px;
   left: 990px;
   margin-left: 40px;
   padding-left: 10px;
-  border-style: dashed;
-  border-width: thin;
+  font-size: 60px;
+  font-family:serif;
 }
 
 #step4{
   width:280px;
   height:280px;
   position: absolute;
-  top:1220px;
+  top:1350px;
   left:660px;
   margin-left: 40px;
-  padding-left: 30px;
-  border-style: dashed;
-  border-width: thin;
+  padding-left: 10px;
+  font-size: 30px;
+  font-family:sans-serif;
 }
 
 #pepper{
   width:280px;
   height:280px;
   position: absolute;
-  top:1220px;
+  top:1720px;
   left:1320px;
   margin-left: 40px;
   padding-left: 10px;
-  border-style: dashed;
-  border-width: thin;
+  font-size: 60px;
+  font-family:serif;
 }
 
 #cream{
   width:280px;
   height:280px;
   position: absolute;
-  top:1520px;
+  top:1720px;
   left: 0px;
   margin-left: 40px;
   padding-left: 10px;
-  border-style: dashed;
-  border-width: thin;
+  font-size: 60px;
+  font-family:serif;
 }
 
 #step4-1{
   width:280px;
   height:280px;
   position: absolute;
-  top:1520px;
+  top:1760px;
   left: 330px;
   margin-left: 40px;
-  padding-left: 30px;
-  border-style: dashed;
-  border-width: thin;
+  padding-left: 10px;
+  font-size: 30px;
+  font-family:sans-serif;
 }

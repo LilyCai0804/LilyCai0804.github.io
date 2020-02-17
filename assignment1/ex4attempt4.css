@@ -1,0 +1,48 @@
+#title{
+  position: absolute;
+  left: 790px;
+  font-size: 80px;
+  font-family: monospace;
+  }
+
+
+#step1{
+  position:absolute;
+  top:410px;
+  left: 20px;
+  font-family: monospace;
+  font-size: 50px;
+}
+
+#step2{
+  position:relative;
+  top:820px;
+  left:500px;
+  font-family: monospace;
+  font-size: 40px;
+}
+
+#step3{
+  position:relative;
+  top:1420px;
+  left:700px;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+#step4{
+  position:relative;
+  top:2020px;
+  left: 20px;
+  font-family: monospace;
+  font-size: 70px;
+}
+
+#ingredients{
+  top: 400px;
+  position: fixed;
+  right: 300px;
+  font-family: monospace;
+  font-size: 14px;
+  width: 220px;
+}
