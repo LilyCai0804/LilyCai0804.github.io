@@ -1,0 +1,19 @@
+p{
+  color: white;
+  position: absolute;
+  left: 34%;
+  right:22%;
+  top:40%;
+  font-family: cursive;
+  letter-spacing: 6px;
+  font-weight: bold;
+}
+
+
+#reload {
+  position:absolute;
+  left:48%;
+  top:46%;
+  font-family: cursive;
+  letter-spacing: 6px;
+}

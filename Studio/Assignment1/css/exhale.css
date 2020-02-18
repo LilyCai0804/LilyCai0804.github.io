@@ -1,0 +1,49 @@
+body  {
+  background-image: url("Artboard 2.png");
+	background-repeat: repeat;
+}
+
+.scale-up-center {
+  position: absolute;
+  left: 605px;
+  top: 200px;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(3.5);
+            transform: scale(3.5);
+  }
+  100% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(3.5);
+            transform: scale(3.5);
+  }
+  100% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+  }
+}
+
+
+p{
+  color:white;
+	z-index: 2;
+	position: absolute;
+	top:400px;
+	left: 835px;
+  font-family: cursive;
+  letter-spacing: 6px;
+}

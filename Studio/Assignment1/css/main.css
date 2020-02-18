@@ -1,0 +1,34 @@
+#name{
+  color: white;
+  font-family: cursive;
+  position: absolute;
+  top:490px;
+  left: 44%;
+  letter-spacing: 6px;
+}
+
+
+#img1{
+  position: absolute;
+  top: 600px;
+  z-index: 1;
+}
+
+
+
+#img2{
+  position: absolute;
+  top: 1680px;
+  width: 100%;
+  z-index: 1;
+}
+
+#start{
+  color: white;
+  font-family: cursive;
+  position: relative;
+  left: 43%;
+  top:2650px;
+  letter-spacing: 6px;
+  z-index: 2;
+}
