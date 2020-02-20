@@ -1,11 +1,11 @@
 body  {
-  background-image: url("Artboard 2.png");
+  background-image: url("dots6.png");
 	background-repeat: repeat;
 }
 
 .scale-up-center {
   position: absolute;
-  left: 605px;
+  left: 608px;
   top: 200px;
 }
 
@@ -22,8 +22,8 @@ body  {
             transform: scale(3.5);
   }
   100% {
-    -webkit-transform: scale(0.2);
-            transform: scale(0.2);
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
   }
 }
 @keyframes scale-up-center {
@@ -32,18 +32,33 @@ body  {
             transform: scale(3.5);
   }
   100% {
-    -webkit-transform: scale(0.2);
-            transform: scale(0.2);
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
   }
 }
 
 
-p{
-  color:white;
-	z-index: 2;
-	position: absolute;
-	top:400px;
-	left: 835px;
-  font-family: cursive;
-  letter-spacing: 6px;
+a{
+  text-decoration: none;
+  outline:none;
 }
+
+
+.glow-text {
+color: white;
+font-family: 'Elsie', sans-serif;
+font-size: 16px;
+font-weight: lighter;
+letter-spacing: 6px;
+text-shadow: 4px 4px 4px #a353c1;
+position: absolute;
+left: 50%;
+top:43%;
+z-index: 2;
+}
+
+  .glow-text:hover{
+  text-shadow: 0 0 .5em, 0 0 .5em;
+  transition: 0.4s;
+  color: white;
+  }

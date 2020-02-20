@@ -1,19 +1,82 @@
-p{
+body  {
+  background-image: url("Artboard 3.png");
+	background-repeat: repeat;
+}
+
+#problem{
   color: white;
   position: absolute;
-  left: 34%;
+  left: 32%;
   right:22%;
-  top:40%;
-  font-family: cursive;
+  top:39%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight:normal;
   letter-spacing: 6px;
-  font-weight: bold;
+  z-index: 2;
 }
 
 
-#reload {
-  position:absolute;
-  left:48%;
-  top:46%;
-  font-family: cursive;
-  letter-spacing: 6px;
+
+a{
+  text-decoration: none;
+  outline:none;
 }
+
+
+  .glow-text {
+  color:#370050;
+  font-family: 'Elsie', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 6px;
+  text-shadow: 4px 4px 4px #370050;
+  position: absolute;
+  left: 48%;
+  top:42.5%;
+  z-index: 2;
+  }
+
+  .glow-text:hover{
+  text-shadow: 0 0 .5em, 0 0 .5em;
+  transition: 0.4s;
+  color: white;
+  }
+
+
+/*
+.scale-up-center {
+  position: absolute;
+  left: 608px;
+  top: 200px;
+  z-index: 1;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(3.5);
+            transform: scale(3.5);
+  }
+  100% {
+    -webkit-transform: scale(0.01);
+            transform: scale(0.01);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(3.5);
+            transform: scale(3.5);
+  }
+  100% {
+    -webkit-transform: scale(0.01);
+            transform: scale(0.01);
+  }
+}
+*/
