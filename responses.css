@@ -4,11 +4,25 @@
 
 #studio0209{
   width: 450px;
+  position: absolute;
+  left:20px;
+  top:510px;
+
+
 }
 
 #studio0210{
   width: 450px;
   position: absolute;
   left:580px;
+  top:0px;
+}
+
+#lab0225{
+  width: 450px;
+  position: absolute;
   top: 0px;
+  left:20px;
+
+
 }
