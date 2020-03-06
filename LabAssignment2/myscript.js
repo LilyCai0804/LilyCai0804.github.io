@@ -28,3 +28,8 @@ function myShorterFunction3() {
 function myShorterFunction4() {
   document.getElementById("p4").style.width = "500px";
 }
+
+
+{
+document.getElementById('p4').style.backgroundColor = "blue";
+}
