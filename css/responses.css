@@ -1,28 +1,30 @@
 #lab0124{
   width: 450px;
+  position: absolute;
+  left:20px;
+  top:0px;
 }
 
 #studio0209{
   width: 450px;
   position: absolute;
   left:20px;
-  top:510px;
-
+  top:610px;
 
 }
 
-#studio0210{
-  width: 450px;
-  position: absolute;
-  left:580px;
-  top:0px;
-}
+
 
 #lab0225{
   width: 450px;
   position: absolute;
-  top: 0px;
+  top: 1380px;
   left:20px;
+}
 
-
+#studio0310{
+  width: 450px;
+  position: absolute;
+  top: 1950px;
+  left:20px;
 }
