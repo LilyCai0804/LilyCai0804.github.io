@@ -1,0 +1,21 @@
+.left{
+  position: absolute;
+  left: 314px;
+  top: 220px;
+}
+
+
+
+
+.middle{
+  position: absolute;
+  left:625px;
+  top: 220px;
+}
+
+
+.right{
+  position: absolute;
+  left:1000px;
+  top: 220px;
+}
