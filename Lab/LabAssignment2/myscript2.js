@@ -49,6 +49,6 @@ $("i").mousemove(function() {
                     $("blockquote").css({"color": "lightgreen"});
 });
 
-$("hblockquote").css({"font-family": "sans-serif"});
+$("blockquote").css({"font-family": "sans-serif"});
 
 $("blockquote").css({"font-size": "18px"});
