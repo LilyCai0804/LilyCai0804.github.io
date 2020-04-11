@@ -1,0 +1,33 @@
+#under{
+  font-size: 300px;
+  position: fixed;
+  top:-240px;
+  left: 80px;
+  font-family: sans-serif;
+}
+
+
+#pro{
+  font-size: 110px;
+  font-family: sans-serif;
+  text-decoration: line-through;
+  position: fixed;
+  top:250px;
+  left: 100px;
+}
+
+#con{
+  font-size: 130px;
+  font-family: sans-serif;
+  position: fixed;
+  top:350px;
+  left: 100px;
+}
+
+
+#school{
+  position: absolute;
+  bottom:100px;
+  left: 100px;
+
+}

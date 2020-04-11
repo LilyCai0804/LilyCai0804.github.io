@@ -1,0 +1,28 @@
+{
+
+  "manifest_version": 2,
+  "name": "what extension",
+  "version": "1.0",
+
+  "description": "a parasite",
+
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.amazon.com/*"],
+      "js": ["scripts/jquery.min.js", "scripts/main.js"],
+      "css" : ["styles/style.css"]
+    }
+  ],
+
+  "web_accessible_resources": [
+   "fonts/*.Ranchers-Regular.ttf",
+   "images/left.png",
+   "images/righttop.png",
+   "images/rightbottom.png"
+
+
+
+  ]
+
+}
