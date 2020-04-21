@@ -1,37 +1,48 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
- <head>
-  <title>Hi</title>
-  <link rel="stylesheet" type="text/css" href="css/main.css" />
- </head>
- <body>
-   <div id="under">
-   <p>UNDER</p>
- </div>
+<head>
+	<title>Object Collection</title>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <link rel="stylesheet" type="text/css" href="main.css" />
 
- <div id="pro">
- <p>PROCRASTINATION</p>
-</div>
+</head>
 
- <div id="con">
- <p>CONSTRUCTION</p>
-</div>
 
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
+<body>
 
-   <div id="school">
-   <p><a href="studio-lab.html">I take online classes these days.</a></p>
- </div>
+  	<div id= "song">  穴位	</div>
 
- </body>
+</body>
 
+
+
+<script type="text/javascript">
+  for(var i=0; i<points.length; i++){
+    var fruitDiv = $('<div/>', {
+        'class': 'hoverBox'
+      })
+      .html(
+         points[i].name
+         )
+      .css({'left': Math.floor(Math.random() * 90) + "%",
+          'top': Math.floor(Math.random() * 90) + "%"})
+      .hover(function(){
+        $(this).css({'opacity': 1})
+        .html(
+        points[i].name
+
+        )
+      })
+
+    $('body').append(fruitDiv)
+  }
+
+  points.forEach(function(points){
+  $("#song").append("<div class=name>"+ points.name+ "</div>"+ "<div class=English>"+points.English+"</div>")
+  })
+
+
+
+</script>
 </html>
