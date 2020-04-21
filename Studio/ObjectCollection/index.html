@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Object Collection</title>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <link rel="stylesheet" type="text/css" href="main.css" />
+
+</head>
+
+
+<body>
+
+  	<div id= "song">  穴位	</div>
+
+</body>
+
+
+
+<script type="text/javascript">
+  for(var i=0; i<points.length; i++){
+    var fruitDiv = $('<div/>', {
+        'class': 'hoverBox'
+      })
+      .html(
+         points[i].name
+         )
+      .css({'left': Math.floor(Math.random() * 90) + "%",
+          'top': Math.floor(Math.random() * 90) + "%"})
+      .hover(function(){
+        $(this).css({'opacity': 1})
+        .html(
+        points[i].name
+
+        )
+      })
+
+    $('body').append(fruitDiv)
+  }
+
+  points.forEach(function(points){
+  $("#song").append("<div class=name>"+ points.name+ "</div>"+ "<div class=English>"+points.English+"</div>")
+  })
+
+
+
+</script>
+</html>
