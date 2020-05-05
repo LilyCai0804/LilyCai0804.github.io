@@ -1,0 +1,56 @@
+body{
+  background-color: white;
+  }
+
+#photograph{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+
+#drawings {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+position: absolute;
+align-items: baseline;
+justify-content:flex-start;
+top:600px;
+left: 150px;
+width: 90%;
+}
+
+
+.drawings{
+  width:20px;
+}
+
+img{
+  width:100px;
+}
+
+img:hover{
+  animation: shake 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+10% { transform: translate(-1px, -2px) rotate(-1deg); }
+20% { transform: translate(-3px, 0px) rotate(1deg); }
+30% { transform: translate(3px, 2px) rotate(0deg); }
+40% { transform: translate(1px, -1px) rotate(1deg); }
+50% { transform: translate(-1px, 2px) rotate(-1deg); }
+60% { transform: translate(-3px, 1px) rotate(0deg); }
+70% { transform: translate(3px, 1px) rotate(-1deg); }
+80% { transform: translate(-1px, -1px) rotate(1deg); }
+90% { transform: translate(1px, 2px) rotate(0deg); }
+100% { transform: translate(1px, -2px) rotate(-1deg); }
+
+}
+
+#size{
+  border:solid;
+  height:1000px;
+}

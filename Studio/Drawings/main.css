@@ -1,0 +1,200 @@
+body{
+  background-color: white;
+  }
+
+
+
+  #wrap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: absolute;
+  top:600px;
+  left: 20px;
+  width: 300px;
+}
+
+
+
+
+
+.image {
+  display:none;
+  width:1000px;
+}
+
+
+
+
+
+.Alice{
+  width:60px;
+  position:absolute;
+  left:100px;
+  top:200px;
+}
+
+
+
+.Bertha{
+  width:100px;
+  position:absolute;
+  left:800px;
+  top:600px;
+}
+
+
+.girl3{
+  width:100px;
+  position:absolute;
+  left:200px;
+  top:400px;
+}
+
+.girl4{
+  width:100px;
+  position:absolute;
+  left:100px;
+  top:300px;
+}
+
+.girl5{
+  width:100px;
+  position:absolute;
+  left:380px;
+  top:600px;
+}
+
+.girl6{
+  width:100px;
+  position:absolute;
+  left:820px;
+  top:680px;
+}
+
+.girl7{
+  width:100px;
+  position:absolute;
+  left:400px;
+  top:520px;
+}
+
+.girl8{
+  width:100px;
+  position:absolute;
+  left:420px;
+  top:570px;
+}
+
+.girl9{
+  width:100px;
+  position:absolute;
+  left:290px;
+  top:390px;
+}
+
+.girl10{
+  width:100px;
+  position:absolute;
+  left:600px;
+  top:700px;
+}
+
+.girl11{
+  width:100px;
+  position:absolute;
+  left:440px;
+  top:680px;
+}
+
+.girl12{
+  width:100px;
+  position:absolute;
+  left:660px;
+  top:680px;
+}
+
+.girl13{
+  width:100px;
+  position:absolute;
+  left:600px;
+  top:700px;
+}
+
+.girl14{
+  width:100px;
+  position:absolute;
+  left:440px;
+  top:680px;
+}
+
+.girl15{
+  width:100px;
+  position:absolute;
+  left:660px;
+  top:680px;
+}
+
+.girl16{
+  width:100px;
+  position:absolute;
+  left:600px;
+  top:700px;
+}
+
+.girl17{
+  width:100px;
+  position:absolute;
+  left:440px;
+  top:680px;
+}
+
+.girl18{
+  width:100px;
+  position:absolute;
+  left:660px;
+  top:680px;
+}
+
+.girl19{
+  width:100px;
+  position:absolute;
+  left:600px;
+  top:700px;
+}
+
+.girl20{
+  width:100px;
+  position:absolute;
+  left:440px;
+  top:680px;
+}
+
+.girl21{
+  width:100px;
+  position:absolute;
+  left:660px;
+  top:680px;
+}
+
+.cake1{
+  width:100px;
+  position:absolute;
+  left:550px;
+  top:680px;
+}
+
+
+.cake2{
+  width:100px;
+  position:absolute;
+  left:460px;
+  top:700px;
+}
+
+.cake3{
+  width:100px;
+  position:absolute;
+  left:330px;
+  top:300px;
+}
