@@ -8,6 +8,10 @@
 
 
 <body>
+	<a href="sorting.html">
+	  <div id="home">Home</div>
+	</a>
+
 
 <div id="wrap">
   <div id="buttons"></div>
@@ -21,40 +25,7 @@
 
 
 
-<script type="text/javascript" src="main.js">
+<script type="text/javascript" src="main.js"></script>
 
-
-for(var i=0; i<drawings.length; i++){
-  var imageDiv = $('<div/>', {
-      'class': 'image'
-    })
-    .data('drawings', drawings[i])
-    .html(drawings[i].pics)
-     $('#images').append(imageDiv)
-
-}
-
-
-
-for(var i=0; i<drawings.length; i++){
-  var buttonDiv = $('<button/>', {
-      'class': 'button'
-    })
-    .data('drawings', drawings[i])
-    .html(drawings[i].name)
-    .css({'background-color': drawings[i].color})
-    .click(function(){
-      $('#images').show();
-    })
-
-
-
-  $('#buttons').append(buttonDiv)
-
-
-}
-
-
-</script>
 
 </html>

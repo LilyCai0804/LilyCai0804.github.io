@@ -1,133 +1,170 @@
-var drawings = [
-	{
-		"name": "Jack",
-    "color":"blue",
-    "pics": "<img class='people' src='images/boy.png'>",
-	},
+var monoGilrs = [
 	{
 		"name":"Cindy",
-    "pics": "<img class='people' src='images/girl1.png'>",
+    "pics": "<img class='monoGilrs' src='images/girl1.png'>",
     "color":"pink",
 	},
 	{
 		"name":"Sarah",
-    "pics": "<img class='people' src='images/girl2.png'>",
+    "pics": "<img class='monoGilrs' src='images/girl2.png'>",
 		"genre":"Pop",
 	},
 	{
 		"name":"合谷",
-    "pics": "<img class='people' src='images/girl3.png'>",
+    "pics": "<img class='monoGilrs' src='images/girl3.png'>",
 		"genre":"Pop",
 	},
 	{
 		"name":"少府",
-    "pics": "<img class='people' src='images/girl4.png'>",
+    "pics": "<img class='monoGilrs' src='images/girl4.png'>",
 		"genre":"Synth Pop",
   },
   {
     "name":"内关",
-    "pics": "<img class='people' src='images/girl5.png'>",
-    "genre":"Synth Pop",
-  },
-  {
-    "name":"神门",
-    "pics": "<img class='people' src='images/girl6.png'>",
-    "genre":"Synth Pop",
-  },
-  {
-    "name":"涌泉",
-    "pics": "<img class='people' src='images/girl7.png'>",
-    "genre":"Synth Pop",
-  },
-  {
-    "name":"太动",
-    "pics": "<img class='people' src='images/girl8.png'>",
-    "genre":"Synth Pop",
-  },
-  {
-    "name":"大敦",
-    "pics": "<img class='people' src='images/girl9.png'>",
-    "genre":"Synth Pop",
-  },
-  {
-    "name":"百会",
-    "pics": "<img class='people' src='images/girl10.png'>",
+    "pics": "<img class='monoGilrs' src='images/girl5.png'>",
     "genre":"Synth Pop",
   },
   {
     "name":"风池",
-    "pics": "<img class='people' src='images/girl11.png'>",
+    "pics": "<img class='monoGilrs' src='images/girl11.png'>",
     "genre":"Synth Pop",
   },
   {
     "name":"灵台",
-    "pics": "<img class='people' src='images/girl12.png'>",
+    "pics": "<img class='monoGilrs' src='images/girl12.png'>",
     "genre":"Synth Pop",
   },
   {
     "name":"肝俞",
-    "pics": "<img class='people' src='images/girl13.png'>",
+    "pics": "<img class='monoGilrs' src='images/girl13.png'>",
     "genre":"Synth Pop",
   },
   {
     "name":"大椎",
-    "pics": "<img class='people' src='images/girl14.png'>",
+    "pics": "<img class='monoGilrs' src='images/girl14.png'>",
+    "genre":"Synth Pop",
+  },
+
+  {
+    "name":"大椎",
+    "pics": "<img class='monoGilrs' src='images/girl18.png'>",
     "genre":"Synth Pop",
   },
   {
     "name":"大椎",
-    "pics": "<img class='people' src='images/girl15.png'>",
-    "genre":"Synth Pop",
-  },
-  {
-    "name":"大椎",
-    "pics": "<img class='people' src='images/girl16.png'>",
-    "genre":"Synth Pop",
-  },
-  {
-    "name":"大椎",
-    "pics": "<img class='people' src='images/girl17.png'>",
-    "genre":"Synth Pop",
-  },
-  {
-    "name":"大椎",
-    "pics": "<img class='people' src='images/girl18.png'>",
-    "genre":"Synth Pop",
-  },
-  {
-    "name":"大椎",
-    "pics": "<img class='people' src='images/girl19.png'>",
-    "genre":"Synth Pop",
-  },
-  {
-    "name":"大椎",
-    "pics": "<img class='people' src='images/girl20.png'>",
-    "genre":"Synth Pop",
-  },
-  {
-    "name":"大椎",
-    "pics": "<img class='people' src='images/girl21.png'>",
-    "genre":"Synth Pop",
-  },
-  {
-    "name":"大椎",
-    "pics": "<img class='people' src='images/girl22.png'>",
+    "pics": "<img class='monoGilrs' src='images/girl20.png'>",
     "genre":"Synth Pop",
   }
-
 ]
 
 
-for(var i=0; i<drawings.length; i++){
-  var peopleDiv = $('<div/>', {
-      'class': 'people'
+for(var i=0; i<monoGilrs.length; i++){
+  var monoGilrsDiv = $('<div/>', {
+      'class': 'monoGilrs'
     })
-    .data('drawings', drawings[i])
-    .html(drawings[i].pics)
-     $('#people').append(peopleDiv);
+    .data('monoGilrs', monoGilrs[i])
+    .html(monoGilrs[i].pics)
+     $('#monoGilrs').append(monoGilrsDiv);
 
 }
 
+
+
+
+
+
+
+var coloredGirls = [
+	{
+    "name":"涌泉",
+    "pics": "<img class='coloredGirls' src='images/girl7.png'>",
+    "genre":"Synth Pop",
+  },
+  {
+    "name":"大敦",
+    "pics": "<img class='coloredGirls' src='images/girl9.png'>",
+    "genre":"Synth Pop",
+  },
+  {
+    "name":"百会",
+    "pics": "<img class='coloredGirls' src='images/girl10.png'>",
+    "genre":"Synth Pop",
+  },
+	{
+    "name":"神门",
+    "pics": "<img class='coloredGirls' src='images/girl6.png'>",
+    "genre":"Synth Pop",
+  },
+	{
+		"name":"太动",
+		"pics": "<img class='coloredGirls' src='images/girl8.png'>",
+		"genre":"Synth Pop",
+	},
+	{
+		"name":"大椎",
+		"pics": "<img class='coloredGirls' src='images/girl15.png'>",
+		"genre":"Synth Pop",
+	},
+	{
+		"name":"大椎",
+		"pics": "<img class='coloredGirls' src='images/girl16.png'>",
+		"genre":"Synth Pop",
+	},
+	{
+		"name":"大椎",
+		"pics": "<img class='coloredGirls' src='images/girl17.png'>",
+		"genre":"Synth Pop",
+	},
+	{
+		"name":"大椎",
+		"pics": "<img class='coloredGirls' src='images/girl21.png'>",
+		"genre":"Synth Pop",
+	},
+	{
+		"name":"大椎",
+		"pics": "<img class='coloredGirls' src='images/girl22.png'>",
+		"genre":"Synth Pop",
+	},
+	{
+		"name":"大椎",
+		"pics": "<img class='coloredGirls' src='images/girl23.png'>",
+		"genre":"Synth Pop",
+	}
+]
+
+for(var i=0; i<coloredGirls.length; i++){
+  var coloredGirlsDiv = $('<div/>', {
+      'class': 'coloredGirls'
+    })
+    .data('coloredGirls', coloredGirls[i])
+    .html(coloredGirls[i].pics)
+     $('#coloredGirls').append(coloredGirlsDiv);
+
+}
+
+
+
+
+
+
+
+var boy = [
+{
+	"name": "Jack",
+	"color":"blue",
+	"pics": "<img class='boy' src='images/boy.png'>",
+},
+]
+
+for(var i=0; i<boy.length; i++){
+  var boyDiv = $('<div/>', {
+      'class': 'boy'
+    })
+    .data('boy', boy[i])
+    .html(boy[i].pics)
+     $('#boy').append(boyDiv);
+
+}
 
 
 
@@ -212,11 +249,6 @@ var cakes = [
 
   var items = [
       	{
-      		"name": "butterfly1",
-          "color":"blue",
-          "pics": "<img class='items' src='images/butterfly1.png'>",
-      	},
-      	{
       		"name":"bow1",
           "pics": "<img class='items' src='images/bow1.png'>",
           "color":"pink",
@@ -275,8 +307,29 @@ var cakes = [
             .data('items', items[i])
             .html(items[i].pics)
              $('#items').append(itemDiv);
-
         }
+
+
+
+
+
+var butterfly = [
+				{
+					"name": "butterfly1",
+					"color":"blue",
+					"pics": "<img class='items' src='images/butterfly1.png'>",
+				},
+			]
+
+			for(var i=0; i<butterfly.length; i++){
+				var butterflyDiv = $('<div/>', {
+						'class': 'butterfly'
+					})
+					.data('butterfly', butterfly[i])
+					.html(butterfly[i].pics)
+					 $('#butterfly').append(butterflyDiv);
+			}
+
 
 
 
@@ -368,11 +421,6 @@ var suns = [
                   "color":"pink",
                 },
                 {
-                  "name":"grass",
-                  "pics": "<img class='outside' src='images/grass.png'>",
-                  "color":"pink",
-                },
-                {
                   "name":"wing",
                   "pics": "<img class='outside' src='images/wing.png'>",
                   "color":"pink",
@@ -410,7 +458,12 @@ var suns = [
                     "name":"tree3",
                     "pics": "<img class='tree' src='images/tree3.png'>",
                     "color":"pink",
-                  }
+                  },
+									{
+	                  "name":"grass",
+	                  "pics": "<img class='outside' src='images/grass.png'>",
+	                  "color":"pink",
+	                }
                 ]
 
                   for(var i=0; i<trees.length; i++){
@@ -445,59 +498,7 @@ var flowers = [
   "name":"flower3",
   "pics": "<img class='flower' src='images/flower3.png'>",
   "color":"pink",
-  },
-  {
-  "name":"flower4",
-  "pics": "<img class='flower' src='images/flower4.png'>",
-  "color":"pink",
-  },
-  {
-  "name":"flower5",
-  "pics": "<img class='flower' src='images/flower5.png'>",
-  "color":"pink",
-  },
-  {
-   "name": "flower6",
-   "color":"blue",
-   "pics": "<img class='flower' src='images/flower6.png'>",
-  },
-  {
-   "name": "flower7",
-   "color":"blue",
-   "pics": "<img class='flower' src='images/flower7.png'>",
-  },
-  {
-   "name": "flower8",
-   "color":"blue",
-   "pics": "<img class='flower' src='images/flower8.png'>",
-  },
-  {
-   "name": "flower9",
-   "color":"blue",
-   "pics": "<img class='flower' src='images/flower9.png'>",
-  },
-  {
-   "name": "flower10",
-   "color":"blue",
-   "pics": "<img class='flower' src='images/flower10.png'>",
-  },
-  {
-   "name": "flower11",
-   "color":"blue",
-   "pics": "<img class='flower' src='images/flower11.png'>",
-},
-{
- "name": "flower12",
- "color":"blue",
- "pics": "<img class='flower' src='images/flower12.png'>",
-},
-{
- "name": "flower13",
- "color":"blue",
- "pics": "<img class='sun' src='images/sun1.png'>",
-}
-
-
+  }
 
 ]
 
@@ -510,3 +511,182 @@ for(var i=0; i<flowers.length; i++){
     $('#flowers').append(flowersDiv);
 
   }
+
+
+
+
+
+	var singleflowers = [
+	  {
+	  "name":"flower10",
+	  "pics": "<img class='flower' src='images/flower10.png'>",
+	  "color":"pink",
+	  },
+	  {
+	  "name":"flower13",
+	  "pics": "<img class='flower' src='images/flower13.png'>",
+	  "color":"pink",
+	  },
+	]
+
+	for(var i=0; i<singleflowers.length; i++){
+	  var singleflowersDiv = $('<div/>', {
+	  'class': 'singleflowers'
+	   })
+	   .data('singleflowers', singleflowers[i])
+	   .html(singleflowers[i].pics)
+	    $('#singleflowers').append(singleflowersDiv);
+
+	  }
+
+
+
+
+
+
+
+	var plottedflowers = [
+		{
+	  "name":"flower4",
+	  "pics": "<img class='flower' src='images/flower4.png'>",
+	  "color":"pink",
+	  },
+		{
+	   "name": "flower6",
+	   "color":"blue",
+	   "pics": "<img class='flower' src='images/flower6.png'>",
+	  },
+	  {
+	   "name": "flower7",
+	   "color":"blue",
+	   "pics": "<img class='flower' src='images/flower7.png'>",
+	  },
+	  {
+	   "name": "flower8",
+	   "color":"blue",
+	   "pics": "<img class='flower' src='images/flower8.png'>",
+	  },
+	  {
+	   "name": "flower9",
+	   "color":"blue",
+	   "pics": "<img class='flower' src='images/flower9.png'>",
+	  },
+		{
+	   "name": "flower11",
+	   "color":"blue",
+	   "pics": "<img class='flower' src='images/flower11.png'>",
+  	},
+	  {
+	   "name": "flower12",
+	   "color":"blue",
+	   "pics": "<img class='flower' src='images/flower12.png'>",
+  	},
+
+	]
+
+	for(var i=0; i<plottedflowers.length; i++){
+	  var plottedflowersDiv = $('<div/>', {
+	  'class': 'plottedflowers'
+	   })
+	   .data('plottedflowers', plottedflowers[i])
+	   .html(plottedflowers[i].pics)
+	    $('#plottedflowers').append(plottedflowersDiv);
+
+	  }
+
+
+
+
+
+
+
+
+	//Make the DIV element draggagle:
+	dragElement(document.getElementById("monoGilrs"));
+
+	dragElement(document.getElementById("coloredGirls"));
+
+	dragElement(document.getElementById("boy"));
+
+	dragElement(document.getElementById("cakes"));
+
+	dragElement(document.getElementById("text"));
+
+	dragElement(document.getElementById("items"));
+
+	dragElement(document.getElementById("cloud"));
+
+	dragElement(document.getElementById("suns"));
+
+	dragElement(document.getElementById("outside"));
+
+	dragElement(document.getElementById("trees"));
+
+	dragElement(document.getElementById("flowers"));
+
+	dragElement(document.getElementById("plottedflowers"));
+
+	dragElement(document.getElementById("singleflowers"));
+
+	dragElement(document.getElementById("butterfly"));
+
+
+
+	function dragElement(elmnt) {
+	  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+	  if (document.getElementById(elmnt.id)) {
+	    /* if present, the header is where you move the DIV from:*/
+	    document.getElementById(elmnt.id).onmousedown = dragMouseDown;
+	  } else {
+	    /* otherwise, move the DIV from anywhere inside the DIV:*/
+	    elmnt.onmousedown = dragMouseDown;
+	  }
+
+	  function dragMouseDown(e) {
+	    e = e || window.event;
+	    e.preventDefault();
+	    // get the mouse cursor position at startup:
+	    pos3 = e.clientX;
+	    pos4 = e.clientY;
+	    document.onmouseup = closeDragElement;
+	    // call a function whenever the cursor moves:
+	    document.onmousemove = elementDrag;
+	  }
+
+	  function elementDrag(e) {
+	    e = e || window.event;
+	    e.preventDefault();
+	    // calculate the new cursor position:
+	    pos1 = pos3 - e.clientX;
+	    pos2 = pos4 - e.clientY;
+	    pos3 = e.clientX;
+	    pos4 = e.clientY;
+	    // set the element's new position:
+	    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+	    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+	  }
+
+	  function closeDragElement() {
+	    /* stop moving when mouse button is released:*/
+	    document.onmouseup = null;
+	    document.onmousemove = null;
+	  }
+	}
+
+
+
+
+	function randomHero() {
+	  var heroPics = ['images/sky.jpg', 'images/snow.jpg', 'images/grass.jpeg','images/sand.jpg'];
+
+	  $('body').css({
+	    'background': 'url(' + heroPics[Math.floor(Math.random() * heroPics.length)] + ') no-repeat',
+	    'background-attachment': 'scroll',
+	    'background-size': '1750px'
+
+	  });
+	}
+
+	randomHero();
+
+	$('button').on('click', randomHero);

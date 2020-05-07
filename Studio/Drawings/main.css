@@ -1,8 +1,23 @@
 body{
-  background-color: white;
+  background-image: url("images/mud.jpg");
   }
 
+#home{
+  position: absolute;
+  top:15px;
+  left: 15px;
+}
 
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: white;
+}
+a:hover {
+    color: tomato;
+
+}
 
   #wrap {
   display: flex;
@@ -10,191 +25,92 @@ body{
   flex-wrap: wrap;
   position: absolute;
   top:600px;
-  left: 20px;
+  left: 200px;
   width: 300px;
 }
 
 
+#buttons{
+  font-size: 16px;
+  position: absolute;
+  width: 200px;
+  top:-80px;
+  left: -185px;
+}
 
+button{
+  font-family:serif;
 
+}
 
 .image {
   display:none;
-  width:1000px;
+}
+
+
+.people{
+  position: absolute;
+  top: 20px;
+  left: 550px;
+}
+
+.cakes{
+  position: absolute;
+  top: 20px;
+  left: 550px;
+}
+
+.text{
+  position: absolute;
+  top: 50px;
+  left: 1050px;
+}
+
+
+.items{
+  position: absolute;
+  top: 20px;
+  left: 550px;
+}
+
+.sun2{
+  position: absolute;
+  width:500px;
+  height: 500px;
+}
+
+
+.sun5{
+  position: absolute;
+  width:500px;
+  height: 500px;
 }
 
 
 
-
-
-.Alice{
-  width:60px;
-  position:absolute;
-  left:100px;
-  top:200px;
+.outside{
+  position: absolute;
+  top: 400px;
+  left: 550px;
 }
 
 
-
-.Bertha{
-  width:100px;
-  position:absolute;
-  left:800px;
-  top:600px;
+.swing{
+  position: absolute;
+  top: 400px;
+  left: 550px;
+  width:800px;
+  height: 1000px;
 }
 
-
-.girl3{
-  width:100px;
-  position:absolute;
-  left:200px;
-  top:400px;
+.tree2{
+  position: absolute;
+  width:300px;
+  height: 500px;
 }
 
-.girl4{
-  width:100px;
-  position:absolute;
-  left:100px;
-  top:300px;
-}
-
-.girl5{
-  width:100px;
-  position:absolute;
-  left:380px;
-  top:600px;
-}
-
-.girl6{
-  width:100px;
-  position:absolute;
-  left:820px;
-  top:680px;
-}
-
-.girl7{
-  width:100px;
-  position:absolute;
-  left:400px;
-  top:520px;
-}
-
-.girl8{
-  width:100px;
-  position:absolute;
-  left:420px;
-  top:570px;
-}
-
-.girl9{
-  width:100px;
-  position:absolute;
-  left:290px;
-  top:390px;
-}
-
-.girl10{
-  width:100px;
-  position:absolute;
-  left:600px;
-  top:700px;
-}
-
-.girl11{
-  width:100px;
-  position:absolute;
-  left:440px;
-  top:680px;
-}
-
-.girl12{
-  width:100px;
-  position:absolute;
-  left:660px;
-  top:680px;
-}
-
-.girl13{
-  width:100px;
-  position:absolute;
-  left:600px;
-  top:700px;
-}
-
-.girl14{
-  width:100px;
-  position:absolute;
-  left:440px;
-  top:680px;
-}
-
-.girl15{
-  width:100px;
-  position:absolute;
-  left:660px;
-  top:680px;
-}
-
-.girl16{
-  width:100px;
-  position:absolute;
-  left:600px;
-  top:700px;
-}
-
-.girl17{
-  width:100px;
-  position:absolute;
-  left:440px;
-  top:680px;
-}
-
-.girl18{
-  width:100px;
-  position:absolute;
-  left:660px;
-  top:680px;
-}
-
-.girl19{
-  width:100px;
-  position:absolute;
-  left:600px;
-  top:700px;
-}
-
-.girl20{
-  width:100px;
-  position:absolute;
-  left:440px;
-  top:680px;
-}
-
-.girl21{
-  width:100px;
-  position:absolute;
-  left:660px;
-  top:680px;
-}
-
-.cake1{
-  width:100px;
-  position:absolute;
-  left:550px;
-  top:680px;
-}
-
-
-.cake2{
-  width:100px;
-  position:absolute;
-  left:460px;
-  top:700px;
-}
-
-.cake3{
-  width:100px;
-  position:absolute;
-  left:330px;
-  top:300px;
+.flower{
+  position: absolute;
+  top: 400px;
+  left: 1050px;
 }

@@ -1,11 +1,33 @@
 body{
-  background-color: white;
+  background-image: url("images/mud.jpg");
+  background-size: cover;
   }
 
+button{
+  font-family: serif;
+  font-size: 12px;
+}
+
+
+
 #photograph{
-  position: absolute;
-  bottom: 10px;
+  position: fixed;
+  bottom: -10px;
   right: 10px;
+  font-family: serif;
+  font-size: 30px;
+  color:white;
+}
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: white;
+}
+a:hover {
+    color: MediumAquaMarine;
+
 }
 
 
@@ -16,14 +38,14 @@ flex-wrap: wrap;
 position: absolute;
 align-items: baseline;
 justify-content:flex-start;
-top:600px;
-left: 150px;
+top:650px;
+left: 100px;
 width: 90%;
 }
 
 
 .drawings{
-  width:20px;
+  width:10px;
 }
 
 img{
@@ -33,6 +55,7 @@ img{
 img:hover{
   animation: shake 2s;
   animation-iteration-count: infinite;
+  width:100px;
 }
 
 @keyframes shake {
@@ -50,7 +73,13 @@ img:hover{
 
 }
 
-#size{
-  border:solid;
-  height:1000px;
+
+#buttons{
+  position: fixed;
+  top: 25px;
+ right: 10px;
+ flex-direction:column;
+ align-items:flex-end;
+ display: flex;
+
 }
