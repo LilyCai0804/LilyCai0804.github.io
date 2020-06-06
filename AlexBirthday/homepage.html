@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>🦆🦆🦆🦆🦆🦆</title>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <link rel="stylesheet" type="text/css" href="homepage.css" />
+</head>
+<body>
+
+  <div id="scrollContainer"></div>
+
+</body>
+<script type="text/javascript">
+
+
+  for(var i=0; i<images1.length; i++){
+    var images1Div = $('<div/>', {
+        'class': 'hoverBox'
+      })
+      .html(images1[i].pics )
+      .css({'left': Math.floor(Math.random() * 90) + "%", 'bottom': Math.floor(Math.random() * 90) + "%"})
+      .hover(function(){
+        $(this).css({'opacity': 100})
+      })
+
+    $('body').append(images1Div)
+  }
+
+
+  $(".people").mouseenter(function(){
+    $("body").css({"background-image": "url('img/arm.jpg')"});
+  });
+
+  $(".people").mouseleave(function(){
+    $("body").css({"background-image": "url('img/IMG_8082.PNG')"});
+  });
+
+
+
+	$("body").click(function(){
+    window.location="scroll.html";
+  });
+
+
+
+
+
+
+</script>
+</html>
