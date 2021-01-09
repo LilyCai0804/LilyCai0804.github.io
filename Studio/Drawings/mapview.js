@@ -677,7 +677,7 @@ for(var i=0; i<flowers.length; i++){
 
 
 	function randomHero() {
-	  var heroPics = ['images/sky.jpg', 'images/snow.jpg', 'images/grass.jpeg','images/sand.jpg'];
+	  var heroPics = ['images/fire.png','images/mud.jpg', 'images/snow.jpg', 'images/universe.jpg','images/sand.jpg','images/street.jpg'];
 
 	  $('body').css({
 	    'background': 'url(' + heroPics[Math.floor(Math.random() * heroPics.length)] + ') no-repeat',

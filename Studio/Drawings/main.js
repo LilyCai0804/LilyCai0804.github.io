@@ -507,7 +507,7 @@ for(var i=0; i<drawings.length; i++){
     })
     .data('drawings', drawings[i])
     .html(drawings[i].pics)
-	  .css({"position":"absolute","left":"100px"})
+	  .css({"position":"absolute","left":"200px"})
      $('#images').append(imageDiv)
 
 

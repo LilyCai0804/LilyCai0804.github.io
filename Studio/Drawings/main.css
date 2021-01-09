@@ -6,6 +6,7 @@ body{
   position: absolute;
   top:15px;
   left: 15px;
+  font-size: 14px;
 }
 
 a {
@@ -27,6 +28,7 @@ a:hover {
   top:600px;
   left: 200px;
   width: 300px;
+
 }
 
 
@@ -34,7 +36,7 @@ a:hover {
   font-size: 16px;
   position: absolute;
   width: 200px;
-  top:-80px;
+  top:-150px;
   left: -185px;
 }
 

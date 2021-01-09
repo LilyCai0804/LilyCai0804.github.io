@@ -5,15 +5,16 @@ body  {
 
 #problem{
   color: white;
-  position: absolute;
-  left: 32%;
-  right:22%;
-  top:39%;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  font-weight:normal;
-  letter-spacing: 6px;
+  text-align: center;
+  padding: 450px 0;
+  position: relative;
+  font-family: 'Elsie', sans-serif;
+  font-size: 20px;
+  font-weight:lighter;
+  letter-spacing: 10px;
   z-index: 2;
+  text-shadow: 0 0 .5em, 0 0 .5em;
+
 }
 
 
@@ -28,13 +29,13 @@ a{
   color:#370050;
   font-family: 'Elsie', sans-serif;
   font-size: 20px;
-  font-weight: lighter;
-  letter-spacing: 6px;
-  text-shadow: 4px 4px 4px #370050;
-  position: absolute;
-  left: 48%;
-  top:42.5%;
+  font-weight:lighter;
+  letter-spacing: 0;
+  text-shadow: 4px 4px 4px white;
+  text-align: center;
   z-index: 2;
+  position: relative;
+  top: -450px;
   }
 
   .glow-text:hover{

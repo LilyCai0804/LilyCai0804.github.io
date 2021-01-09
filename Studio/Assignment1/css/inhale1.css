@@ -8,7 +8,7 @@ body  {
 .scale-down-center {
   position: absolute;
   left: 608px;
-  top: 200px;
+  top: 220px;
 	z-index:inherit;
 }
 
@@ -54,7 +54,7 @@ a{
   font-family: 'Elsie', sans-serif;
   font-size: 16px;
   font-weight: lighter;
-  letter-spacing: 6px;
+  letter-spacing: 4px;
   text-shadow: 4px 4px 4px #a353c1;
   position: absolute;
   left: 50%;
