@@ -1,0 +1,113 @@
+body{
+  margin:0;
+  background-image: url('images/rendering.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 24%;
+}
+
+
+
+.content {
+  border: 3px solid transparent;
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  right:685px;
+  top:90px;
+}
+
+#first img{
+  height: 490px;
+  position: absolute;
+  left:-10px;
+  top:-15px;
+}
+
+#second img{
+  width:255px;
+  height:515px;
+  position: absolute;
+  left:-35px;
+  top:-40px;
+}
+
+#third img{
+  width:240px;
+  height:508px;
+  position: absolute;
+  left:-10px;
+  top:-30px;
+}
+
+#forth img {
+  width:215px;
+  position: absolute;
+  left:-8px;
+  top:224px;
+}
+
+#fifth img {
+  width:240px;
+  height:540px;
+  position: absolute;
+  left:-2px;
+  top:-65px;
+}
+
+#sixth img {
+  width:340px;
+  position: absolute;
+  left:-75px;
+  top:-195px;
+}
+
+#seventh img {
+  width:450px;
+  position: absolute;
+  left:-145px;
+  top:50px;
+}
+
+
+#eighth img{
+  width:610px;
+  position: absolute;
+  left:-195px;
+  top:90px;
+}
+
+#ninth img{
+width:240px;
+height:730px;
+position: absolute;
+left:-2px;
+top:-77px;
+}
+
+#tenth img{
+  height:430px;
+width:250px;
+position: absolute;
+left:-4px;
+top:43px;
+}
+
+#eleventh img{
+width:195px;
+position: absolute;
+left:0px;
+top:55px;
+}
+
+#second, #third,#forth,#fifth,#sixth,#seventh,#eighth,#ninth,#tenth,#eleventh {
+  display: none
+}
+
+button {
+  outline: none;
+}
+
+.container{
+   position: absolute;
+}
