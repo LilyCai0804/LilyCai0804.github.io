@@ -1,23 +1,47 @@
-.hoverBox {
-  border: 2px;
-  border-radius: 150px;
+p{
+  text-align-last: center;
+}
+
+.projectsInfo{
   position: fixed;
-  width: 100px;
-  height: 100px;
-  opacity: 0.5;
-  background-color: red;
-  padding: 10px;
-  font-size:50px;
-}
-
-body{
-background-color:RebeccaPurple;
+  top: 0;
+  left: 0;
+  width:100%;
+  background-color: white;
+  z-index: 2;
 }
 
 
 
-.English{
-  position: absolute;
-  left: 50px;
-  font-family: monospace;
+
+#content{
+  display: inline-block;
+  width:100%;
+  margin:0 auto;
+  position: relative;
+  flex-wrap: wrap;
+  display: flex;
+
+}
+
+.projects{
+  margin:0.3em;
+
+}
+
+
+.item{
+  float: left;
+  display: inline-block;
+  margin: 0.5em;
+  position: relative;
+  height: auto;
+  width: auto;
+}
+
+
+img{
+  height:25em;
+  width: auto;
+  margin: 0.5em;
 }
