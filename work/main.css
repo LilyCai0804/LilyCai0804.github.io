@@ -1,0 +1,47 @@
+p{
+  text-align-last: center;
+}
+
+.projectsInfo{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  background-color: white;
+  z-index: 2;
+}
+
+
+
+
+#content{
+  display: inline-block;
+  width:100%;
+  margin:0 auto;
+  position: relative;
+  flex-wrap: wrap;
+  display: flex;
+
+}
+
+.projects{
+  margin:0.3em;
+
+}
+
+
+.item{
+  float: left;
+  display: inline-block;
+  margin: 0.5em;
+  position: relative;
+  height: auto;
+  width: auto;
+}
+
+
+img{
+  height:25em;
+  width: auto;
+  margin: 0.5em;
+}
