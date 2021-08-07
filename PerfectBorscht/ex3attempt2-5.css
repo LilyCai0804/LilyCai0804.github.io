@@ -1,0 +1,42 @@
+#step1{
+  width:340px;
+  position:relative;
+  top:320px;
+  left:300px;
+}
+
+#step2{
+  width:340px;
+  position:relative;
+  top:500px;
+  left:700px;
+
+}
+
+#step3{
+  width:340px;
+  position:relative;
+  top:-50px;
+  left:500px;
+
+
+}
+
+#step4{
+  width:340px;
+  position:relative;
+  top:100px;
+  left:1000px;
+}
+
+#title{
+  position: absolute;
+  top:400px;
+  left: 800px;
+}
+
+#ingredients{
+  position: absolute;
+  bottom:30px;
+  left: 30px;
+}

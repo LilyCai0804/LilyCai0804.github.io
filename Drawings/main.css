@@ -1,0 +1,118 @@
+body{
+  background-image: url("images/mud.jpg");
+  }
+
+#home{
+  position: absolute;
+  top:15px;
+  left: 15px;
+  font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: white;
+}
+a:hover {
+    color: tomato;
+
+}
+
+  #wrap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: absolute;
+  top:600px;
+  left: 200px;
+  width: 300px;
+
+}
+
+
+#buttons{
+  font-size: 16px;
+  position: absolute;
+  width: 200px;
+  top:-150px;
+  left: -185px;
+}
+
+button{
+  font-family:serif;
+
+}
+
+.image {
+  display:none;
+}
+
+
+.people{
+  position: absolute;
+  top: 20px;
+  left: 550px;
+}
+
+.cakes{
+  position: absolute;
+  top: 20px;
+  left: 550px;
+}
+
+.text{
+  position: absolute;
+  top: 50px;
+  left: 1050px;
+}
+
+
+.items{
+  position: absolute;
+  top: 20px;
+  left: 550px;
+}
+
+.sun2{
+  position: absolute;
+  width:500px;
+  height: 500px;
+}
+
+
+.sun5{
+  position: absolute;
+  width:500px;
+  height: 500px;
+}
+
+
+
+.outside{
+  position: absolute;
+  top: 400px;
+  left: 550px;
+}
+
+
+.swing{
+  position: absolute;
+  top: 400px;
+  left: 550px;
+  width:800px;
+  height: 1000px;
+}
+
+.tree2{
+  position: absolute;
+  width:300px;
+  height: 500px;
+}
+
+.flower{
+  position: absolute;
+  top: 400px;
+  left: 1050px;
+}

@@ -1,0 +1,327 @@
+#borscht{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:-25px;
+  left: 0px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 60px;
+  font-family:sans-serif;
+}
+
+#serving{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:-25px;
+  left: 330px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 60px;
+  font-family:sans-serif;
+}
+
+#step1{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:20px;
+  left: 660px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 30px;
+  font-family:sans-serif;
+}
+
+#step1-1{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:320px;
+  left: 0px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 30px;
+  font-family:sans-serif;
+}
+
+
+#butter{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:-10px;
+  left:990px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 60px;
+  font-family:serif;
+}
+
+#beetroot{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:-10px;
+  left:1320px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 60px;
+  font-family:serif;
+}
+
+#step2{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:320px;
+  left:990px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 30px;
+  font-family:sans-serif;
+}
+
+#onion{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:295px;
+  left:330px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 60px;
+  font-family:serif;
+}
+
+#carrot{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:295px;
+  left:660px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 60px;
+  font-family:serif;
+}
+
+
+#step2-1{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:320px;
+  left:1320px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 30px;
+  font-family:sans-serif;
+}
+
+#step3{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:750px;
+  left:330px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 30px;
+  font-family:sans-serif;
+}
+
+#potatoes{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:710px;
+  left:1320px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 60px;
+  font-family:serif;
+}
+
+#cabbage{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:1330px;
+  left:1320px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 60px;
+  font-family:serif;
+}
+
+#celery{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:720px;
+  left: 0px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 60px;
+  font-family:serif;
+}
+
+#step3-1{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:945px;
+  left:990px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 30px;
+  font-family:sans-serif;
+}
+
+#leek{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:720px;
+  left:660px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 60px;
+  font-family:serif;
+}
+
+#peeled{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:750px;
+  left:990px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 30px;
+  font-family:serif;
+  font-weight: bold;
+}
+
+#allspice{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:920px;
+  left: 0px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 60px;
+  font-family:serif;
+}
+
+#garlic{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:1320px;
+  left: 0px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 60px;
+  font-family:serif;
+}
+
+#cider{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:1320px;
+  left: 330px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 60px;
+  font-family:serif;
+}
+
+
+#bayleaf{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:920px;
+  left: 330px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 60px;
+  font-family:serif;
+}
+
+#stock{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:920px;
+  left:660px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 60px;
+  font-family:serif;
+}
+
+#sugar{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:1320px;
+  left: 990px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 60px;
+  font-family:serif;
+}
+
+#step4{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:1350px;
+  left:660px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 30px;
+  font-family:sans-serif;
+}
+
+#pepper{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:1720px;
+  left:1320px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 60px;
+  font-family:serif;
+}
+
+#cream{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:1720px;
+  left: 0px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 60px;
+  font-family:serif;
+}
+
+#step4-1{
+  width:280px;
+  height:280px;
+  position: absolute;
+  top:1760px;
+  left: 330px;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 30px;
+  font-family:sans-serif;
+}

@@ -25,7 +25,7 @@ p{
 }
 
 .projects{
-  margin:0.3em;
+  margin:5em;
 
 }
 
@@ -33,7 +33,7 @@ p{
 .item{
   float: left;
   display: inline-block;
-  margin: 0.5em;
+  margin: 5em;
   position: relative;
   height: auto;
   width: auto;
@@ -41,7 +41,7 @@ p{
 
 
 img{
-  height:25em;
+  height:19.6em;
   width: auto;
-  margin: 0.5em;
+  margin: 2.5em;
 }
