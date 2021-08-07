@@ -1,0 +1,10 @@
+#marquee1 {
+	overflow-x: -webkit-marquee;
+	-webkit-marquee-style: scroll;
+	-webkit-marquee-speed: fast;
+}
+
+.example1{
+  font-family: helvetica;
+  font-size: 25px;
+}
