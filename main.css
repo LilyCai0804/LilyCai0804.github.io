@@ -31,3 +31,10 @@ a:visited {
 .homepage__bio {
   max-width: 15em;
 }
+
+@media only screen and (max-width: 600px) {
+  img {
+    height: unset;
+    width: 100%;
+  }
+}
