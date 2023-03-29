@@ -5,20 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Thesis</title>
     <link rel="stylesheet" type="text/css" href="../main.css">
+    <style>
+      body {
+        align-items: center;
+        background: #111;
+        color: #eee;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        overflow: hidden;
+        padding: 0;
+      }
+
+      .page-content {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        width: 100vw;
+      }
+
+      .row {
+        align-items: center;
+        display: flex;
+        font-family: arial;
+        font-size: 32.5vh;
+        justify-content: center;
+        line-height: 1;
+        width: 100%;
+      }
+
+      @media only screen and (max-width: 900px) {
+        .row {
+          font-size: 30vw;
+        }
+      }
+    </style>
   </head>
   <body>
-    <p>
-      <a href="../">Yuqin Cai</a>
-    </p>
-    <p>
-      ♥ thesis from a cutie ♥
-    </p>
-    <p>
-      WIP
-    </p>
-    <p>
-      You know it's gonna be good …
-    </p>
+    <div class="page-content">
+      <div class="row js-top-row" data-row="top_row"></div>
+      <div class="row js-mid-row" data-row="mid_row"></div>
+      <div class="row js-bot-row" data-row="bot_row"></div>
+    </div>
+
+    <script>
+      const data = {
+        top_row: ["Typing", "Talking", "打字", "说"],
+        mid_row: ["with", "without"],
+        bot_row: ["time", "时间"],
+      }
+
+      const elements = [
+        document.querySelector(".js-top-row"),
+        document.querySelector(".js-mid-row"),
+        document.querySelector(".js-bot-row"),
+      ];
+
+      function fillRow(el, arr) {
+        el.innerText = arr[Math.floor(Math.random() * arr.length)];
+      }
+
+      (function init() {
+        elements.forEach((el) => {
+          setInterval(() => {
+            fillRow(el, data[el.dataset.row]);
+          }, 1250);
+        });
+      })();
+    </script>
   </body>
 </html>
 
