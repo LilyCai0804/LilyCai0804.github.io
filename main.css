@@ -5,6 +5,8 @@ body {
 
 img {
   height: 15em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 p {
@@ -24,17 +26,41 @@ a:visited {
   color: blue;
 }
 
-.homepage__info {
-  margin-top: 1em;
+img {
+  height: 19.6em;
+  width: auto;
 }
 
-.homepage__bio {
-  max-width: 15em;
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.info-area {
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  border: solid 1px black;
+  bottom: 30px;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  position: fixed;
+  right: 30px;
+  width: 300px;
+}
+
+.hidden {
+  display: none;
 }
 
 @media only screen and (max-width: 600px) {
   img {
     height: unset;
+    margin-right: 0;
     width: 100%;
   }
 }

@@ -1,0 +1,17 @@
+{
+  "wayfinding": {
+    "title": "Wayfinding",
+    "info": "wayfinding test",
+    "date": "2022"
+  },
+  "thesis": {
+    "title": "Conversation Guide",
+    "info": "thesis",
+    "date": "2023"
+  },
+  "finalReader" : {
+    "title": "Typography Final Reader",
+    "info": "a pdf reader of quotes on typography",
+    "date": "2021"
+  }
+}
