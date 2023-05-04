@@ -9,11 +9,6 @@
     "info": "thesis",
     "date": "2023"
   },
-  "test": {
-    "title": "test",
-    "info": "test",
-    "date": "2023"
-  },
   "finalReader" : {
     "title": "Typography Final Reader",
     "info": "a pdf reader of quotes on typography",
