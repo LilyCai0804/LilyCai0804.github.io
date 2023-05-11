@@ -1,17 +1,107 @@
 {
-  "wayfinding": {
-    "title": "Wayfinding",
-    "info": "wayfinding test",
-    "date": "2021"
+  "springOpenCall":{
+    "title": "Poster for :iidrr Spring Market Open Call",
+    "info": "",
+    "date": "2023"
+  },
+  "springPoster":{
+    "title": "Poster for :iidrr Spring Market",
+    "info": "",
+    "date": "2023"
+  },
+  "summerOpenCall":{
+    "title": "Poster for :iidrr Summer Market Open Call",
+    "info": "",
+    "date": "2023"
+  },
+  "cityofforestday":{
+    "title": "City of Forest Day",
+    "info": "A photography book documenting the first City of Forest Day action, captured by students in the course Image, Action and Environment at Parsons School of Design in the fall of 2022",
+    "date": "2023"
+  },
+  "syanPoster":{
+    "title": "Left To Feel That Wind",
+    "info": "Poster for artist Yan Shao's project 'Left To Feel That Wind', an art installation exploring the perception of time and the entangled relationship between human, technology and the environment. ",
+    "date": "2023"
   },
   "thesis": {
-    "title": "Conversation Guide",
-    "info": "thesis",
+    "title": "22nd Century Conversation Guide <br> Modes of Communication: Speaking & Typing",
+    "info": "22世纪对话指南",
     "date": "2023"
+  },
+  "MartinGoya":{
+    "title": "Poster for Exhibition 'Earth-Diver Myth' at Martin Goya",
+    "info": "",
+    "date": "2022"
+  },
+  "wayfinding1": {
+    "title": "Wayfinding",
+    "info": "游乐场 Playground",
+    "date": "2021"
+  },
+  "wayfinding2": {
+    "title": "Wayfinding",
+    "info": "跷跷板 Seesaw",
+    "date": "2021"
+  },
+  "wayfinding3": {
+    "title": "Wayfinding",
+    "info": "葡萄架 Grape Rack",
+    "date": "2021"
+  },
+  "wayfinding4": {
+    "title": "Wayfinding",
+    "info": "空地 Empty Field",
+    "date": "2021"
+  },
+  "wayfinding5": {
+    "title": "Wayfinding",
+    "info": "停车库 Parking Lot",
+    "date": "2021"
+  },
+  "TCM": {
+    "title": "Online TCM Consultation",
+    "info": "An virtual experience of Traditional Chinese Medicine inspection on your tongue, face and behaviors",
+    "date": "2021"
   },
   "finalReader" : {
     "title": "Typography Final Reader",
-    "info": "a pdf reader of quotes on typography",
-    "date": "2021"
+    "info": "A pdf reader showcasing quotes on typography",
+    "date": "2020"
+  },
+  "drawing" : {
+    "title": "Haohao and her friends",
+    "info": "An archive of all my doodles drawn on a sketchbook when I was 5 years old. Worldmaking is explored through sorting and categorizing the items.    ",
+    "date": "2020"
+  },
+  "protest" : {
+    "title": "Typography Protest",
+    "info": " ",
+    "date": "2020"
+  },
+  "sleeping" : {
+    "title": "It is if you were trying to fall asleep",
+    "info": " an webpage experiment creating a world ",
+    "date": "2020"
+  },
+  "postcard" : {
+    "title": "2020 New Year Postcard",
+    "info": " Risograph 2 colors +size",
+    "date": "2019"
+  },
+  "wikibook" : {
+    "title": "Santaphobia",
+    "info": "Wikibook",
+    "date": "2019"
+  },
+  "handsOnSubway" : {
+    "title": "7 to NQRW",
+    "info": "E Catalog of photos taken of hands on subway",
+    "date": "2019"
+  },
+  "knockoffs" : {
+    "title": "All-For-Free Downloading Sites",
+    "info": "Knockoffs of five specific Chinese websites for downloading - movies, games, softwares, Ebooks and songs, all for free",
+    "date": "2019"
   }
 }

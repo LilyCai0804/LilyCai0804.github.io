@@ -7,12 +7,12 @@
     <link rel="stylesheet" type="text/css" href="../main.css">
     <style>
       body {
-        align-items: center;
-        background: #111;
-        color: #eee;
+        align-items:center;
+        background: #ffffff;
+        color: #808080;
         display: flex;
         justify-content: center;
-        margin: 0;
+        margin：0;
         overflow: hidden;
         padding: 0;
       }
@@ -20,7 +20,7 @@
       .page-content {
         align-items: center;
         display: flex;
-        flex-direction: column;
+        flex-direction:row;
         height: 100vh;
         justify-content: center;
         width: 100vw;
@@ -30,7 +30,7 @@
         align-items: center;
         display: flex;
         font-family: arial;
-        font-size: 32.5vh;
+        font-size: 3vh;
         justify-content: center;
         line-height: 1;
         width: 100%;
@@ -38,12 +38,45 @@
 
       @media only screen and (max-width: 900px) {
         .row {
-          font-size: 30vw;
+          font-size: 3vw;
         }
       }
+
+      img {
+       height: 4em;
+       margin-right: 0.5em;
+       margin-bottom: 0.5em;
+       display: flex;
+       flex-wrap: wrap;
+       margin-left: 0 auto;
+       position: relative;
+      }
+
+      
     </style>
   </head>
   <body>
+
+    <div class="thesis">
+      <img class="thesis js-project" src="/work/img/2023thesis_cover.png" data-project="thesis">
+      <img class="thesis js-project" src="/work/img/2023thesis_spreads0.png" data-project="thesisy">
+      <img class="thesis js-project" src="/work/img/2023thesis_spreads1.png" data-project="thesis">
+      <img class="thesis js-project" src="/work/img/2023thesis_spreads2.png" data-project="thesis">
+      <img class="thesis js-project" src="/work/img/2023thesis_spreads3.png" data-project="thesis">
+      <img class="thesis js-project" src="/work/img/2023thesis_spreads4.png" data-project="thesis">
+      <img class="thesis js-project" src="/work/img/2023thesis_spreads5.png" data-project="thesis">
+      <img class="thesis js-project" src="/work/img/2023thesis_spreads6.png" data-project="thesis">
+      <img class="thesis js-project" src="/work/img/2023thesis_spreads7.png" data-project="thesis">
+      <img class="thesis js-project" src="/work/img/2023thesis_spreads8.png" data-project="thesis">
+      <img class="thesis js-project" src="/work/img/2023thesis_spreads9.png" data-project="thesis">
+      <img class="thesis js-project" src="/work/img/2023thesis_photo1.jpg" data-project="thesis">
+      <img class="thesis js-project" src="/work/img/2023thesis_photo2.jpg" data-project="thesis">
+      <img class="thesis js-project" src="/work/img/2023thesis_photo3.jpg" data-project="thesis">
+      <img class="thesis js-project" src="/work/img/2023thesis_photo4.jpg" data-project="thesis">
+      <img class="thesis js-project" src="/work/img/2023thesis_photo5.jpg" data-project="thesisy">
+    </div>
+
+    
     <div class="page-content">
       <div class="row js-top-row" data-row="top_row"></div>
       <div class="row js-mid-row" data-row="mid_row"></div>
@@ -52,9 +85,9 @@
 
     <script>
       const data = {
-        top_row: ["Typing", "Talking", "打字", "说"],
-        mid_row: ["with", "without", "和", "没有"],
-        bot_row: ["time", "时间"],
+        top_row: ["Typing", "Speaking", "打字", "说话"],
+        mid_row: ["With", "Without", "同", "无"],
+        bot_row: ["Time", "时间"],
       }
 
       const elements = [
@@ -75,6 +108,11 @@
         });
       })();
     </script>
+
+
+
+
+
   </body>
 </html>
 
