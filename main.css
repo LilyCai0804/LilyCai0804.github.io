@@ -27,8 +27,13 @@ a:visited {
 }
 
 img {
+  cursor: pointer;
   height: 19.6em;
   width: auto;
+}
+
+.big-image {
+  height: 75vh;
 }
 
 .projects {
@@ -40,17 +45,15 @@ img {
 }
 
 .info-area {
-  align-items: center;
   background-color: white;
-  border-radius: 50%;
+  border-radius: 5px;
   border: solid 1px black;
   bottom: 30px;
   display: flex;
-  height: 300px;
-  justify-content: center;
+  padding: 10px;
   position: fixed;
   right: 30px;
-  width: 200px;
+  width: 250px;
 }
 
 .hidden {
