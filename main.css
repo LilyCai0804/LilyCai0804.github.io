@@ -3,12 +3,6 @@ body {
   font-size: 13px;
 }
 
-img {
-  height: 15em;
-  margin-right: 0.5em;
-  margin-bottom: 0.5em;
-}
-
 p {
   margin-top: 0;
 }
@@ -29,11 +23,9 @@ a:visited {
 img {
   cursor: pointer;
   height: 19.6em;
+  margin-bottom: 0.5em;
+  margin-right: 0.5em;
   width: auto;
-}
-
-.big-image {
-  height: 75vh;
 }
 
 .projects {
@@ -42,18 +34,6 @@ img {
   margin-left: 0 auto;
   position: relative;
   width: 100%;
-}
-
-.info-area {
-  background-color: white;
-  border-radius: 5px;
-  border: solid 1px black;
-  bottom: 30px;
-  display: flex;
-  padding: 10px;
-  position: fixed;
-  right: 30px;
-  width: 250px;
 }
 
 .hidden {
@@ -65,5 +45,23 @@ img {
     height: unset;
     margin-right: 0;
     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .big-image {
+    height: 75vh;
+  }
+
+  .info-area {
+    background-color: white;
+    border-radius: 5px;
+    border: solid 1px black;
+    bottom: 30px;
+    display: flex;
+    padding: 10px;
+    position: fixed;
+    right: 30px;
+    width: 250px;
   }
 }
