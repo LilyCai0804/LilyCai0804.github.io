@@ -1,4 +1,4 @@
-async function app() {
+async function homepage() {
   function getProjectData() {
     return fetch("js/projects.json").then(response => response.json());
   }
@@ -22,6 +22,7 @@ async function app() {
       });
 
       project.addEventListener("mouseleave", (e) => {
+        infoArea.classList.add("hidden");
         infoArea.innerHTML = "";
       });
     });
@@ -33,4 +34,4 @@ async function app() {
   })();
 }
 
-app();
+homepage();

@@ -6,56 +6,26 @@
     <title>Thesis</title>
     <link rel="stylesheet" type="text/css" href="../main.css">
     <style>
-      body {
-        align-items:center;
-        background: #ffffff;
-        color: #808080;
-        display: flex;
-        justify-content: center;
-        margin：0;
-        overflow: hidden;
-        padding: 0;
+      .word-clock {
+        height: 100px;
       }
-
-      .page-content {
-        align-items: center;
-        display: flex;
-        flex-direction:row;
-        height: 100vh;
-        justify-content: center;
-        width: 100vw;
-      }
-
-      .row {
-        align-items: center;
-        display: flex;
-        font-family: arial;
-        font-size: 3vh;
-        justify-content: center;
-        line-height: 1;
-        width: 100%;
-      }
-
-      @media only screen and (max-width: 900px) {
-        .row {
-          font-size: 3vw;
-        }
-      }
-
-      img {
-       height: 4em;
-       margin-right: 0.5em;
-       margin-bottom: 0.5em;
-       display: flex;
-       flex-wrap: wrap;
-       margin-left: 0 auto;
-       position: relative;
-      }
-
-      
     </style>
   </head>
   <body>
+    <div class="header">
+      <p>
+        <a href="/">Back</a>
+      </p>
+      <p>
+        Conversation Guide: Modes of Communication: Speaking & Typing
+      </p>
+    </div>
+
+    <div class="word-clock">
+      <div class="row js-top-row" data-row="top_row"></div>
+      <div class="row js-mid-row" data-row="mid_row"></div>
+      <div class="row js-bot-row" data-row="bot_row"></div>
+    </div>
 
     <div class="thesis">
       <img class="thesis js-project" src="/work/img/2023thesis_cover.png" data-project="thesis">
@@ -76,12 +46,7 @@
       <img class="thesis js-project" src="/work/img/2023thesis_photo5.jpg" data-project="thesisy">
     </div>
 
-    
-    <div class="page-content">
-      <div class="row js-top-row" data-row="top_row"></div>
-      <div class="row js-mid-row" data-row="mid_row"></div>
-      <div class="row js-bot-row" data-row="bot_row"></div>
-    </div>
+    <script src="../js/image_max.js"></script>
 
     <script>
       const data = {
@@ -108,11 +73,6 @@
         });
       })();
     </script>
-
-
-
-
-
   </body>
 </html>
 
