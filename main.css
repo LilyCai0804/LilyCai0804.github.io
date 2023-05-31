@@ -17,7 +17,7 @@ a:hover {
 }
 
 a:visited {
-  color: blue;
+  color: rgb(106, 106, 106);
 }
 
 img {
@@ -50,16 +50,16 @@ img {
 
 @media only screen and (min-width: 601px) {
   .big-image {
-    height: 75vh;
+    height: 75vh !important;
   }
 
   .info-area {
-    background-color: white;
-    border-radius: 5px;
-    border: solid 1px black;
-    bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    border: solid px black;
+    bottom: 28px;
     display: flex;
-    padding: 10px;
+    padding: 30px;
     position: fixed;
     right: 30px;
     width: 250px;

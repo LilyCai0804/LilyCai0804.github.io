@@ -1,17 +1,22 @@
 {
-  "springOpenCall":{
-    "title": "Poster for :iidrr Spring Market Open Call",
+  "yanshaoMotion":{
+    "title": "Poster for debut solo exhibiton of artist Yan Shao &quotTransient Surface&quot at :iidrr Gallery",
     "info": "",
     "date": "2023"
   },
-  "springPoster":{
-    "title": "Poster for :iidrr Spring Market",
-    "info": "",
+  "syanPoster":{
+    "title": "Poster for artist Yan Shao's project &quotLeft To Feel That Wind&quot",
+    "info": "An art installation exploring the perception of time and the entangled relationship between human, technology and the environment. ",
     "date": "2023"
   },
   "summerOpenCall":{
-    "title": "Poster for :iidrr Summer Market Open Call",
+    "title": "Poster for Summer Market Open Call at :iidrr Gallery",
     "info": "",
+    "date": "2023"
+  },
+  "relief":{
+    "title": "Window View",
+    "info": "Woodcut,9*12&quot ",
     "date": "2023"
   },
   "cityofforestday":{
@@ -19,9 +24,14 @@
     "info": "A photography book documenting the first City of Forest Day action, captured by students in the course Image, Action and Environment at Parsons School of Design in the fall of 2022",
     "date": "2023"
   },
-  "syanPoster":{
-    "title": "Left To Feel That Wind",
-    "info": "Poster for artist Yan Shao's project 'Left To Feel That Wind', an art installation exploring the perception of time and the entangled relationship between human, technology and the environment. ",
+  "outsider":{
+    "title": "The Outsider",
+    "info": "Screenprint",
+    "date": "2023"
+  },
+  "springPoster":{
+    "title": "Poster for Spring Market Open Call at :iidrr Gallery",
+    "info": "",
     "date": "2023"
   },
   "thesis": {
@@ -29,33 +39,43 @@
     "info": "22世纪对话指南",
     "date": "2023"
   },
+  "hallway":{
+    "title": "Hallway",
+    "info": "Screenprint",
+    "date": "2022"
+  },
+  "moon":{
+    "title": "Full Moon",
+    "info": "Screenprint",
+    "date": "2022"
+  },
   "MartinGoya":{
-    "title": "Poster for Exhibition 'Earth-Diver Myth' at Martin Goya",
+    "title": "Poster for opening of exhibiton &quotEarth-Diver Myth&quot at Martin Goya",
     "info": "",
     "date": "2022"
   },
   "wayfinding1": {
-    "title": "Wayfinding",
+    "title": "Wayfinding System",
     "info": "游乐场 Playground",
     "date": "2021"
   },
   "wayfinding2": {
-    "title": "Wayfinding",
+    "title": "Wayfinding System",
     "info": "跷跷板 Seesaw",
     "date": "2021"
   },
   "wayfinding3": {
-    "title": "Wayfinding",
+    "title": "Wayfinding System",
     "info": "葡萄架 Grape Rack",
     "date": "2021"
   },
   "wayfinding4": {
-    "title": "Wayfinding",
+    "title": "Wayfinding System",
     "info": "空地 Empty Field",
     "date": "2021"
   },
   "wayfinding5": {
-    "title": "Wayfinding",
+    "title": "Wayfinding System",
     "info": "停车库 Parking Lot",
     "date": "2021"
   },
@@ -79,14 +99,9 @@
     "info": " ",
     "date": "2020"
   },
-  "sleeping" : {
-    "title": "It is if you were trying to fall asleep",
-    "info": " an webpage experiment creating a world ",
-    "date": "2020"
-  },
   "postcard" : {
     "title": "2020 New Year Postcard",
-    "info": " Risograph 2 colors +size",
+    "info": " Risograph, 5*7&quot",
     "date": "2019"
   },
   "wikibook" : {
